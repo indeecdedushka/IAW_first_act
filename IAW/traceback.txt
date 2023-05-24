@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 583, in script
+    if lid == True:
+  File "game/script.rpy", line 583, in <module>
+    if lid == True:
+NameError: name 'lid' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 583, in script
+    if lid == True:
+  File "C:\Users\indeec\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\indeec\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\indeec\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 583, in <module>
+    if lid == True:
+NameError: name 'lid' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+IAW 1.0
+Fri May 19 21:00:01 2023
